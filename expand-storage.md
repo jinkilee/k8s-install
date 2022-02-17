@@ -1,5 +1,6 @@
 
 ```
+sudo lsblk
 sudo mkfs.ext4 -m 0 -E lazy_itable_init=0,lazy_journal_init=0,discard /dev/sdb
 
 # HDD를 EXT4로 포맷 (구글에서 권장한 flag 사용)
