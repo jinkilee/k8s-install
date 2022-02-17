@@ -5,7 +5,7 @@ sudo install minikube-linux-amd64 /usr/local/bin/minikube
 
 
 # install virtual-box
-sudo apt install virtualbox virtualbox-ext-pack
+sudo apt -y install virtualbox virtualbox-ext-pack
 
 
 
